@@ -9,4 +9,7 @@ function getInput() {
   return process.argv[2];
 }
 
+const userName = getInput();
+console.log('hello', userName)
+
 module.exports = getInput;
